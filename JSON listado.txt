@@ -1,0 +1,74 @@
+[
+  {
+    "id": 2,
+    "_type": "internal",
+    "isActive": false,
+    "rubro": {
+      "nombre": "Construcción"
+    },
+    "fecha": "2024-09-30",
+    "empresa": {
+      "cuit": "30-98765432-1"
+    },
+    "extraField": "Este campo no está en la tabla"
+  },
+  {
+    "id": 3,
+    "_internal_id": 34,
+    "isProcessed": true,
+    "rubro": {
+      "nombre": "Tecnología"
+    },
+    "fecha": null,
+    "empresa": {
+      "cuit": "30-11111111-1",
+      "cliente": {
+        "nombre": "Carlos López"
+      }
+    },
+    "notes": "Entrega en curso"
+  },
+  {
+    "id": 4,
+    "_temp_code": "X243",
+    "inStock": true,
+    "rubro": {
+      "nombre": "Agricultura"
+    },
+    "fecha": null,
+    "empresa": {
+      "cuit": "30-55555555-5"
+    },
+    "comment": "Revisar disponibilidad"
+  },
+  {
+    "id": 5,
+    "metadata": {
+      "version": "1.0",
+      "status": "pending"
+    },
+    "rubro": {
+      "nombre": "Educación"
+    },
+    "fecha": "2024-10-01",
+    "empresa": {
+      "cuit": "30-22222222-2"
+    },
+    "additionalInfo": {
+      "details": "Contrato en revisión"
+    }
+  },
+  {
+    "id": 6,
+    "_flagged": true,
+    "lastModified": "2024-09-28T14:30:00",
+    "rubro": {
+      "nombre": "Salud"
+    },
+    "fecha": "2024-09-28",
+    "empresa": {
+      "cuit": "30-33333333-3"
+    },
+    "priority": "alta"
+  }
+]
